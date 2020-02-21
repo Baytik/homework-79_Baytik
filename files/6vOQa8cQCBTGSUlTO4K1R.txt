@@ -1,0 +1,5 @@
+{
+  "idCategory": "q-tQ6UwxMDqeo75aEn1jr",
+  "title": "OC",
+  "description": "intel"
+}

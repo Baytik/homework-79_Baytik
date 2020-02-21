@@ -1,0 +1,5 @@
+{
+  "idCategory": "bpKdURkYl9V5Wtof9qP3d",
+  "title": "Video",
+  "description": "gtx 1050"
+}
