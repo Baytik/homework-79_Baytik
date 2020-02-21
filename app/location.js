@@ -5,20 +5,20 @@ const nanoid = require('nanoid');
 
 router.post('/', (req, res) => {
     const errorMessage = {
-        error: 'title must be present in the request'
+        error: 'location must be present in the request'
     };
 
-    const category = {
+    const location = {
         idLocation: nanoid(),
-        title: req.body.title,
+        location: req.body.location,
         description: req.body.description
     };
 
-    if (req.body.title === '') {
+    if (req.body.location === '') {
         res.status(400).send(errorMessage);
     } else {
-        const fileName = `./files/${nanoid()}.txt`;
-        const data = JSON.stringify(category, null, 2);
+        const fileName = `./files/locationFiles/${nanoid()}.txt`;
+        const data = JSON.stringify(location, null, 2);
         fs.writeFile(fileName, data, err => {
             if (err) {
                 console.log(err)
@@ -26,7 +26,7 @@ router.post('/', (req, res) => {
                 console.log('File was saved!')
             }
         });
-        res.send(category);
+        res.send(location);
     }
 });
 

@@ -32,13 +32,12 @@ router.get('/:id', async (req, res) => {
 });
 
 router.post('/', upload.single('image'), async (req, res) => {
-    console.log(req.body)
-    /*const product = req.body;
+    const product = req.body;
         if (req.file) {
             product.image = req.file.filename;
         }
         await fileDb.addItem(product);
-        res.send(product.id);*/
+        res.send(product.id);
 });
 
 router.put('/:id', async (req, res) => {

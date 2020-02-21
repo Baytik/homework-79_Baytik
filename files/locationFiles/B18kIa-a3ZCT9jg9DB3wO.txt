@@ -1,0 +1,5 @@
+{
+  "idLocation": "4Ltj3BjhzUu8RyRt_P_NC",
+  "location": "Офис 204",
+  "description": "Кабинет директора"
+}

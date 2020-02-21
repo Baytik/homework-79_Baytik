@@ -17,7 +17,7 @@ router.post('/', (req, res) => {
     if (req.body.title === '') {
         res.status(400).send(errorMessage);
     } else {
-        const fileName = `./files/${nanoid()}.txt`;
+        const fileName = `./files/categoryFiles/${nanoid()}.txt`;
         const data = JSON.stringify(category, null, 2);
         fs.writeFile(fileName, data, err => {
             if (err) {
