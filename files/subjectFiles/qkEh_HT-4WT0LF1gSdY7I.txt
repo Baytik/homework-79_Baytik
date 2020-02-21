@@ -1,0 +1,7 @@
+{
+  "idSubject": "hLlIJ56KyKTsYPEc-SYxy",
+  "category": "q-tQ6UwxMDqeo75aEn1jr",
+  "location": "DBQbhtuy5XlxUc9ZJEKZY",
+  "subject": "Ноутбуки",
+  "description": "Ноутбук HP Probook 450"
+}

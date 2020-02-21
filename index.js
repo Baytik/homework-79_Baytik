@@ -5,6 +5,7 @@ const config = require('./config');
 const fileDb = require('./fileDb');
 const categories = require('./app/categories');
 const location = require('./app/location');
+const subject = require('./app/subject');
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(express.static('public'));
 app.use('/resources', products);
 app.use('/categories', categories);
 app.use('/location', location);
+app.use('/subject', subject);
 
 const run = async () => {
     await fileDb.init();
