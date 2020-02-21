@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const products = require('./app/products');
+const resources = require('./app/resources');
 const config = require('./config');
 const fileDb = require('./fileDb');
 const categories = require('./app/categories');
@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
-app.use('/resources', products);
+app.use('/resources', resources);
 app.use('/categories', categories);
 app.use('/location', location);
 app.use('/subject', subject);
