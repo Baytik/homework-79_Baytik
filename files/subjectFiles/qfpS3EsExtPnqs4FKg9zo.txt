@@ -1,7 +1,0 @@
-{
-  "idSubject": "XqOoAfF-mvJfKP80oIhAn",
-  "category": "bpKdURkYl9V5Wtof9qP3d",
-  "location": "4Ltj3BjhzUu8RyRt_P_NC",
-  "subject": "Ноутбуки",
-  "description": "Ноутбук Acer Nitro 5"
-}

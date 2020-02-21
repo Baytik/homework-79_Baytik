@@ -1,0 +1,7 @@
+{
+  "idSubject": "bGIInL0ZuP-SKrGm2XYPK",
+  "category": "bpKdURkYl9V5Wtof9qP3d",
+  "location": "4Ltj3BjhzUu8RyRt_P_NC",
+  "subject": "Notebook",
+  "description": "Acer"
+}

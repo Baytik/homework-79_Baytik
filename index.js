@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const resources = require('./app/resources');
 const config = require('./config');
-const fileDb = require('./fileDb');
 const categories = require('./app/categories');
 const location = require('./app/location');
 const subject = require('./app/subject');
@@ -18,7 +17,6 @@ app.use('/location', location);
 app.use('/subject', subject);
 
 const run = async () => {
-    await fileDb.init();
     app.listen(config.port)
 };
 

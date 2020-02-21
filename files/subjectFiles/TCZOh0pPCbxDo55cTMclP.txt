@@ -1,0 +1,7 @@
+{
+  "idSubject": "ypS-FIXw3W-tl_5gUrDKf",
+  "category": "q-tQ6UwxMDqeo75aEn1jr",
+  "location": "DBQbhtuy5XlxUc9ZJEKZY",
+  "subject": "Notebook",
+  "description": "Lenovo"
+}
