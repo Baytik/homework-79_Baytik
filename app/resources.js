@@ -6,8 +6,8 @@ const nanoid = require('nanoid');
 router.get('/', (req, res) => {
     const resources = [];
     const products = [];
-    fs.readdir('./files/subjectFiles', async (err, files) => {
-        files.map(file => {
+    fs.readdir('./files/subjectFiles',(err, files) => {
+        files.forEach(file => {
             const data = fs.readFileSync(`./files/subjectFiles/${file}`);
             resources.push(JSON.parse(data.toString()));
             for(let resource of resources) {
